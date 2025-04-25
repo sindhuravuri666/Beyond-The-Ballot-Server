@@ -46,7 +46,7 @@ def get_summary_statistics(path: str = CSV_Path) -> dict:
         return {
             "summary": sentiment_counts,
             "total": len(df),
-            "preview": df[["Tweet", "Predicted Sentiment"]].head(5).to_dict(orient="records")
+            "preview": df[["Tweet", "Predicted Sentiment"]].head(10).to_dict(orient="records")
         }
     except Exception as e:
         return {"error": str(e)}

@@ -1,8 +1,14 @@
 Leader,Tweet,Sentiment
 Narendra Modi,Modi's economic policies have boosted growth.,Positive
+Rahul Gandhi,Rahul Gandhi faces leadership challenges within his party.,Negative
 Narendra Modi,Demonetization was a masterstroke by Modi.,Positive
 Narendra Modi,Modi's governance is full of corruption.,Negative
+Rahul Gandhi,Rahul Gandhi's vision for India is unclear.,Negative
+Rahul Gandhi,Youth engagement by Rahul Gandhi is commendable.,Positive
+Rahul Gandhi,Rahul Gandhi has weak decision-making skills.,Negative
+Rahul Gandhi,Rahul Gandhi proposes effective reforms.,Positive
 Narendra Modi,I admire Modi's leadership qualities.,Positive
+Rahul Gandhi,Rahul Gandhi's campaigns are not impactful.,Negative
 Narendra Modi,Modi has failed to control inflation.,Negative
 Narendra Modi,"Under Modi, India has achieved great success.",Positive
 Narendra Modi,Modi's Make in India initiative is a game changer.,Positive
@@ -24,11 +30,7 @@ Rahul Gandhi,Rahul Gandhi is not strong in leadership.,Negative
 Rahul Gandhi,Rahul Gandhi has fresh ideas for the economy.,Positive
 Rahul Gandhi,Rahul Gandhi failed to impress in recent debates.,Negative
 Rahul Gandhi,Rahul Gandhi is an advocate for social justice.,Positive
-Rahul Gandhi,Rahul Gandhi's vision for India is unclear.,Negative
-Rahul Gandhi,Youth engagement by Rahul Gandhi is commendable.,Positive
-Rahul Gandhi,Rahul Gandhi has weak decision-making skills.,Negative
-Rahul Gandhi,Rahul Gandhi proposes effective reforms.,Positive
-Rahul Gandhi,Rahul Gandhi's campaigns are not impactful.,Negative
+
 Rahul Gandhi,Rahul Gandhi understands grassroots problems.,Positive
 Rahul Gandhi,Rahul Gandhi needs to work harder for elections.,Negative
 Narendra Modi,Modi's digital initiatives have transformed India.,Positive
@@ -78,4 +80,4 @@ Rahul Gandhi,Rahul Gandhi has a long way to go to gain mass trust.,Negative
 Rahul Gandhi,Rahul Gandhi pushes for affordable housing schemes.,Positive
 Rahul Gandhi,Rahul Gandhi needs a stronger media strategy.,Negative
 Rahul Gandhi,Rahul Gandhi’s vision includes bridging the urban-rural divide.,Positive
-Rahul Gandhi,Rahul Gandhi faces leadership challenges within his party.,Negative
+

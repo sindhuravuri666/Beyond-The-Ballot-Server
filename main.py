@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
-from sentiment import get_sentiment,get_summary_statistics,analyze_csv_from_filesystem,analyze_single_tweet
+from sentiment import get_sentiment,get_summary_statistics,analyze_single_tweet,analyze_csv
 
 import pandas as pd
 
@@ -27,8 +27,12 @@ def analyze_tweet(data:TweetRequest):
 
 @app.get("/get_summary")
 def dataset_summary():
-    try:
-        return get_summary_statistics()
-    except Exception as e:
-        return {"error":str(e)}
-    
+    return get_summary_statistics(dataset="general")
+
+@app.get("/get_summary_modi")
+def dataset_summary_modi():
+    return get_summary_statistics(dataset="modi")
+
+@app.get("/get_summary_rahul")
+def dataset_summary_rahul():
+    return get_summary_statistics(dataset="rahul")
